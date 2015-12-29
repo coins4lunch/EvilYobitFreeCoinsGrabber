@@ -6,6 +6,7 @@ Clicks all "Get free coins" buttons automatically on Yobit's "free coins" page
 Saves you time so that you don't have to click hundreds of buttons
 
 Instructions:
+
 1. Install the Greasemonkey add-on in your Firefox browser (or Tampermonkey in Chrome).
 2. Make sure that the EvilYobitFreeCoinsGrabber.user.js script is loaded and enabled in Greasemonkey / Tampermonkey.
 3. Log into https://yobit.net/
