@@ -22,11 +22,11 @@
 
 $(function() {   
     $('input[type=button].clGetFreeCoins').each(function() {  
-        var coinName = $(this).parent().prevAll().last()[0]['innerText'];
-        var statusElem = $(this).parent().prevAll().first().eq(0)[0];
+        var coinName = $(this).parent().prevAll().last().text();
+        var statusHtml = $(this).parent().prevAll().first().html();
 
         var isReady = false;
-        if (statusElem['innerText'] && statusElem.innerText.indexOf('ready') >= 0) {
+        if (statusHtml && statusHtml.indexOf('ready') >= 0) {
             isReady = true;
         }
 
@@ -41,4 +41,3 @@ $(function() {
         }
     });
 });
-
