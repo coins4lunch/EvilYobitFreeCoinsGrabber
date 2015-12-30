@@ -14,3 +14,6 @@ Instructions:
 
 This script will automatically click on the "Get free coins" buttons for all eligible coins. 
 It should take a few (or several) seconds, depending on server and Internet speeds.
+
+#### NOTE: This tests successfully on the latest Chrome browser with Tampermonkey
+#### This is not working currently on Firefox with Greasemonkey, so I will have to look into that
