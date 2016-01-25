@@ -8,7 +8,7 @@ Saves you time so that you don't have to click hundreds of buttons
 Instructions:
 
 1. Install the [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) add-on in your Chrome browser.
-2. Make sure that the [EvilYobitFreeCoinsGrabber.user.js]((https://raw.githubusercontent.com/coins4lunch/EvilYobitFreeCoinsGrabber/master/EvilYobitFreeCoinsGrabber.user.js) script is loaded and enabled in Tampermonkey.
+2. Make sure that the [EvilYobitFreeCoinsGrabber.user.js](https://raw.githubusercontent.com/coins4lunch/EvilYobitFreeCoinsGrabber/master/EvilYobitFreeCoinsGrabber.user.js) script is loaded and enabled in Tampermonkey.
 3. Log onto https://yobit.net/
 4. Go to page https://yobit.net/en/freecoins/
 
