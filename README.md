@@ -15,7 +15,6 @@ Instructions:
 This script will automatically click on the "Get free coins" buttons for all eligible coins. 
 It should take several seconds, depending on the number of buttons and server / Internet speeds.
 
-#### NOTE: This tests successfully on the latest Chrome browser with Tampermonkey
-#### This is not working currently on Firefox with Greasemonkey
+### NOTE: This tests successfully on the latest Chrome browser with Tampermonkey. This is not working currently on Firefox with Greasemonkey
 
-#### WARNING: Sometime in January 2016 (after I authored this script), Yobit forbid the use of automation on their free coins page. Use this script at your own risk!
+### WARNING: Sometime in January 2016 (after I authored this script), Yobit forbid the use of automation on their free coins page. Use this script at your own risk!
