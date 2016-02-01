@@ -3,7 +3,7 @@
 // @namespace http://evilcoin.xyz
 // @description Click on each coin button on Yobit's free coins page
 // @include https://yobit.net/en/freecoins/
-// @version 4
+// @version 5
 // @author coins4lunch <coins4lunch@gmail.com>
 // @grant none
 // @require http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
@@ -32,7 +32,7 @@ $(function() {
 
         if (statusHtml && statusHtml.indexOf('ready') >= 0) {
             var _this = this;
-            _this.timeout = baseTimeout + Math.floor((Math.random() * 250) + 250); // increase timeout as we go down the list
+            _this.timeout = baseTimeout + Math.floor((Math.random() * 500) + 250); // increase timeout as we go down the list
             baseTimeout = _this.timeout;
             
             setTimeout(function() { // Finally, click button. Timeout is to diffuse load on Yobit's server
