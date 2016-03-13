@@ -3,7 +3,7 @@
 // @namespace http://evilcoin.xyz
 // @description Click on each coin button on Yobit's free coins page
 // @include https://yobit.net/en/freecoins/
-// @version 6
+// @version 7
 // @author coins4lunch <coins4lunch@gmail.com>
 // @grant none
 // @require http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
@@ -43,7 +43,7 @@ $(function() {
             }, _this.timeout);
         }
         else {
-            baseTimeout += Math.floor((Math.random() * 25) + 1); // increase timeout slightly even for rows that we don't click
+            baseTimeout += Math.floor((Math.random() * 25) + 5); // increase timeout slightly even for rows that we don't click
         }
     });
 });
